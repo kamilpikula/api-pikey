@@ -13,6 +13,8 @@ gem 'puma', '~> 3.11'
 # Active record to json, as json
 gem 'active_model_serializers'
 
+# CORS
+gem 'rack-cors'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
