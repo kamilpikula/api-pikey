@@ -32,6 +32,9 @@ module ApiPikey
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
+    # Rack Attack
+    config.middleware.use Rack::Attack
+
     # Config cors
     config.middleware.insert_before 0, Rack::Cors do
       allow do

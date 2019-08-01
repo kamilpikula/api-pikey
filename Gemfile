@@ -15,6 +15,10 @@ gem 'active_model_serializers'
 
 # CORS
 gem 'rack-cors'
+
+# Rack Attack for protect API
+gem 'rack-attack'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
