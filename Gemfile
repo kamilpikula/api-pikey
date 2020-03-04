@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.3'
 # Database
 gem 'pg'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 
 # Active record to json, as json
 gem 'active_model_serializers'
